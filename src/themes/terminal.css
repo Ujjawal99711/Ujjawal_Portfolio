@@ -1,0 +1,97 @@
+:root {
+  --color-primary: #00ff41;
+  --color-primary-rgb: 0, 255, 65;
+  --color-primary-light: #33ff66;
+  --color-primary-dark: #00cc33;
+
+  --color-accent: #ffb000;
+  --color-accent-rgb: 255, 176, 0;
+  --color-accent-light: #ffc233;
+  --color-accent-dark: #cc8c00;
+
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #1a1a1a;
+
+  --color-text-primary: #d0d0d0;
+  --color-text-secondary: #808080;
+  --color-text-muted: #606060;
+
+  --color-border: #1a3a1a;
+  --color-border-strong: #2a5a2a;
+
+  --color-glass-bg: rgba(10, 10, 10, 0.9);
+  --color-glass-border: rgba(0, 255, 65, 0.15);
+  --color-glass-shadow: 0 0 20px rgba(0, 255, 65, 0.05);
+  --color-glass-hover-border: rgba(0, 255, 65, 0.4);
+  --color-glass-hover-shadow: 0 0 30px rgba(0, 255, 65, 0.1);
+
+  --color-nav-bg: rgba(10, 10, 10, 0.95);
+  --color-nav-shadow: 0 1px 0 rgba(0, 255, 65, 0.15);
+
+  --color-footer-border: rgba(0, 255, 65, 0.15);
+  --color-scrollbar-track: #111111;
+  --color-scrollbar-thumb: #1a3a1a;
+  --color-scrollbar-thumb-hover: #2a5a2a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.015) 2px,
+    rgba(0, 255, 65, 0.015) 4px
+  );
+  z-index: 9999;
+}
+
+.glass-card {
+  border-style: double !important;
+  border-width: 2px !important;
+}
+
+.glass-card:hover {
+  box-shadow:
+    0 0 20px rgba(0, 255, 65, 0.1),
+    0 0 40px rgba(0, 255, 65, 0.05) !important;
+}
+
+nav .nav-brand::before {
+  content: '~/portfolio $ ';
+  color: var(--color-accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7em;
+}
+
+.terminal-cursor {
+  animation: terminalBlink 1s step-end infinite;
+}
+
+@keyframes terminalBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "icon": "Code2",
+      "label": "What I Build",
+      "value": "AI-first consumer products",
+      "description": "Career products serving 2 Lakh+ users",
+      "color": "#5F6F3A"
+    },
+    {
+      "icon": "Briefcase",
+      "label": "What I Do",
+      "value": "Product Manager - AI Solutions",
+      "description": "Monetization and growth funnels at Outspark",
+      "color": "#A67C52"
+    },
+    {
+      "icon": "Clock",
+      "label": "Experience",
+      "value": "4 Years",
+      "description": "Across product, operations, and analytics",
+      "color": "#8C6A46"
+    },
+    {
+      "icon": "Zap",
+      "label": "Focus",
+      "value": "AI agents",
+      "description": "Multi-agent systems and cost vs quality tradeoffs",
+      "color": "#6B7A45"
+    }
+  ],
+  "tools": ["Claude Code", "Cursor AI", "Notebook LM", "Codex", "JEV AI", "HeyGen", "SQL", "OpenRouter"],
+  "toolsNote": "I use OpenRouter to test open-weight models and compare them with models from OpenAI, Google Gemini, and Anthropic Claude Opus."
+}

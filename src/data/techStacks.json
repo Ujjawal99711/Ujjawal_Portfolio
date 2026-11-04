@@ -1,0 +1,85 @@
+{
+  "expertise": [
+    {
+      "id": "product-strategy",
+      "title": "Product Strategy",
+      "description": "Taking products from development through monetization and growth.",
+      "icon": "Eye",
+      "color": "#A67C52",
+      "categories": {
+        "Product Strategy": [
+          "Product Development",
+          "Monetization",
+          "Growth Funnels",
+          "Product-Led Growth",
+          "User Segmentation"
+        ]
+      }
+    },
+    {
+      "id": "ai-systems-llms",
+      "title": "AI Systems & LLMs",
+      "description": "Designing and optimizing LLM and agent systems.",
+      "icon": "Brain",
+      "color": "#5F6F3A",
+      "categories": {
+        "AI Systems & LLMs": [
+          "LLM Optimization",
+          "Prompt Engineering",
+          "AI Agents",
+          "MCP Integration",
+          "Cost vs Quality Tradeoffs"
+        ]
+      }
+    },
+    {
+      "id": "ai-prototyping-developer-tools",
+      "title": "AI Prototyping & Developer Tools",
+      "description": "The tools I use to prototype and build with AI.",
+      "icon": "Terminal",
+      "color": "#7A8450",
+      "categories": {
+        "AI Prototyping & Developer Tools": [
+          "Claude Code",
+          "Cursor AI",
+          "Notebook LM",
+          "Google Labs tools",
+          "Codex",
+          "JEV AI",
+          "HeyGen",
+          "OpenRouter"
+        ]
+      }
+    },
+    {
+      "id": "data-experimentation",
+      "title": "Data & Experimentation",
+      "description": "Measuring what matters and testing decisions with data.",
+      "icon": "Shield",
+      "color": "#8C6A46",
+      "categories": {
+        "Data & Experimentation": [
+          "SQL (analysis & funnel tracking)",
+          "A/B Testing",
+          "Metrics Definition",
+          "Data-Driven Decision Making"
+        ]
+      }
+    },
+    {
+      "id": "execution",
+      "title": "Execution",
+      "description": "Leading cross-functional teams from roadmap to delivery.",
+      "icon": "Cloud",
+      "color": "#6B7A45",
+      "categories": {
+        "Execution": [
+          "Cross-functional Leadership (Eng, Design, Data)",
+          "Road mapping",
+          "Agile",
+          "Stakeholder Management"
+        ]
+      }
+    }
+  ]
+}

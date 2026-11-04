@@ -1,0 +1,58 @@
+[
+  {
+    "title": "B2B Social Post Factory Writer",
+    "description": "A multi-agent AI orchestration pipeline that produces LinkedIn content for B2B founders and company pages.",
+    "technologies": ["Python", "OpenAI API", "Gemini API", "pypdf", "python-docx", "python-pptx"],
+    "features": [
+      "Staged relay from ingest through planning to writers, with stop and resume controls",
+      "One system prompt per pipeline stage",
+      "Multi-file ingest with PDF, DOCX, and PPTX extraction",
+      "Brand DNA lock applied to image prompts",
+      "DOCX export of generated content"
+    ],
+    "github": "https://github.com/Ujjawal99711/B2B-social-post-factory-writer",
+    "featured": true
+  },
+  {
+    "title": "Scout-Jevhire",
+    "description": "Scout-Jevhire finds real open roles on LinkedIn and filters out the noise. Point it at a job title; it scouts recent posts, uses Jev to keep only true employer and recruiter hiring ads, and surfaces what teams need to act on hiring opportunities faster.",
+    "technologies": ["Python", "httpx", "pydantic", "OpenAI API", "Jev", "ConnectSafely API"],
+    "features": [
+      "Searches two time windows and removes duplicates across them",
+      "Local keyword and role pre-filter",
+      "Jev probability check with a 0.75 keep threshold",
+      "Email and apply links extracted with regex rather than GPT",
+      "Strict pydantic schemas for extracted fields"
+    ],
+    "github": "https://github.com/Ujjawal99711/Scout-Jevhire",
+    "featured": true
+  },
+  {
+    "title": "GTM-Agent",
+    "description": "Public-signal first-customer finder for GTM. Given a product URL, it researches dated demand signals (ideally \u226430 days), scores prospects on pain/fit/timing, verifies contact routes, and generates a Markdown/CSV report with draft openers. Privacy-first: public sources only; no enrichment or auto-send.",
+    "technologies": ["Python", "Cursor Agent Skills", "HTML/CSS"],
+    "features": [
+      "Weighted 0-100 prospect score across pain, fit, timing, reachability, and evidence",
+      "Validation that rejects guessed contact URLs",
+      "Stable prospect IDs from canonicalized URLs",
+      "Markdown, CSV, and HTML report exports",
+      "Local history with keep, maybe, and reject feedback"
+    ],
+    "github": "https://github.com/Ujjawal99711/GTM-Agent",
+    "featured": true
+  },
+  {
+    "title": "Virtual Try-On",
+    "description": "Multi-model AI virtual try-on benchmark: run the same person, apparel, and prompt across OpenAI + OpenRouter image models, then compare visual quality, latency, and per-model cost side by side.",
+    "technologies": ["Python", "FastAPI", "Uvicorn", "OpenAI SDK", "OpenRouter", "httpx", "asyncio"],
+    "features": [
+      "Registry of 5 OpenAI and 6 OpenRouter image models",
+      "Concurrent runs with error handling per model",
+      "Latency recorded for each model call",
+      "Cost calculation across three pricing modes",
+      "Editable positive and negative prompts"
+    ],
+    "github": "https://github.com/Ujjawal99711/Virtual-Try-On",
+    "featured": true
+  }
+]

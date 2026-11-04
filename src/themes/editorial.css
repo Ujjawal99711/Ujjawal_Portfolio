@@ -1,0 +1,65 @@
+:root {
+  --color-primary: #6b5b4f;
+  --color-primary-rgb: 107, 91, 79;
+  --color-primary-light: #8a7768;
+  --color-primary-dark: #52443a;
+
+  --color-accent: #a3623f;
+  --color-accent-rgb: 163, 98, 63;
+  --color-accent-light: #c17f56;
+  --color-accent-dark: #7d4a2f;
+
+  --color-bg-primary: #faf7f2;
+  --color-bg-secondary: #f2ede4;
+  --color-bg-tertiary: #e8e0d2;
+
+  --color-text-primary: #2b2620;
+  --color-text-secondary: #554d42;
+  --color-text-muted: #8a7f70;
+
+  --color-border: rgba(43, 38, 32, 0.12);
+  --color-border-strong: rgba(43, 38, 32, 0.24);
+
+  --color-glass-bg: #ffffff;
+  --color-glass-border: rgba(43, 38, 32, 0.1);
+  --color-glass-shadow: 0 1px 2px rgba(43, 38, 32, 0.06);
+  --color-glass-hover-border: rgba(43, 38, 32, 0.2);
+  --color-glass-hover-shadow: 0 4px 12px rgba(43, 38, 32, 0.08);
+
+  --color-nav-bg: rgba(250, 247, 242, 0.92);
+  --color-nav-shadow: 0 1px 0 rgba(43, 38, 32, 0.08);
+
+  --color-footer-border: rgba(43, 38, 32, 0.1);
+  --color-scrollbar-track: #f2ede4;
+  --color-scrollbar-thumb: #cabfae;
+  --color-scrollbar-thumb-hover: #a89a83;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+}
+
+.glass-card {
+  backdrop-filter: none !important;
+  box-shadow: 0 1px 2px rgba(43, 38, 32, 0.06) !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(43, 38, 32, 0.08) !important;
+}
+
+nav {
+  backdrop-filter: none !important;
+}

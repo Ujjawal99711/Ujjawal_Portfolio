@@ -1,0 +1,57 @@
+{
+  "shortBio": "Product Manager who builds AI-powered products and owns the business outcomes behind them.",
+  "fullBio": "I'm a Product Manager specializing in AI-first consumer products and growth platforms, with a strong focus on owning business outcomes from 0-to-1 product development through monetization and scale.\n\nAt Outspark, I work across AI-driven career products serving 2 Lakh+ users, building AI-powered products, optimizing models for cost and quality, and improving unit economics through automation and vendor negotiations.\n\nBefore that, I worked in product operations at Coursera and as an Analyst at Enstoa.",
+  "story": [
+    "Today I own monetization and growth funnels across AI-driven career products at Outspark, serving **2 Lakh+ users**. It starts with revenue: I launched two 0-to-1 offerings, Visibility+ (**\u20b930K**) and Career+ (**\u20b950K**), and rolled out Job Alerts, a RAG-based job matching engine that delivered **85% match relevancy**, onboarded **2,700+ users**, and generated **\u20b954L MRR** in its first month. The same engine went on to generate **30% of Career+ customers' interviews**.",
+    "Revenue only counts if growth is efficient. I implemented a LinkedIn outreach agent and an AI voice agent to reduce dependence on expensive telesales, and together with a redesigned onboarding flow they raised lead-to-trial conversion by **40%**.",
+    "Then I went after the cost side. Moving to an optimized AI model and prompt system cut the cost of each resume by **more than 70%**, and negotiating with two AI agent vendors cut per-seat costs by **89%** (\u20b93,600 to \u20b9384) and **20%** (\u20b91,000 to \u20b9800).",
+    "Along the way I designed the systems that make this scale: a 6-agent LinkedIn content model supporting **10,000 users**, and a Jev-based lead and job-fit qualification system with **98% accuracy**. Now I'm leading an MCP-based autonomous job application project, with automated flows for **Naukri.com, Indeed, and LinkedIn Easy Apply**."
+  ],
+  "whatIdo": [
+    {
+      "title": "AI Systems & Agents",
+      "icon": "Brain",
+      "color": "#5F6F3A",
+      "capabilities": [
+        "LLM optimization and prompt engineering",
+        "AI agents and MCP integration",
+        "Cost vs quality tradeoffs",
+        "RAG-based matching systems"
+      ]
+    },
+    {
+      "title": "Product Strategy & Growth",
+      "icon": "Terminal",
+      "color": "#A67C52",
+      "capabilities": [
+        "0-to-1 product development",
+        "Monetization and growth funnels",
+        "Product-led growth",
+        "User segmentation"
+      ]
+    },
+    {
+      "title": "Data & Experimentation",
+      "icon": "Shield",
+      "color": "#7A8450",
+      "capabilities": [
+        "SQL analysis and funnel tracking",
+        "A/B testing",
+        "Metrics definition",
+        "Data-driven decision making"
+      ]
+    },
+    {
+      "title": "Execution & Leadership",
+      "icon": "Users",
+      "color": "#8C6A46",
+      "capabilities": [
+        "Cross-functional leadership across Eng, Design, and Data",
+        "Roadmapping and Agile",
+        "Stakeholder management",
+        "Vendor negotiation"
+      ]
+    }
+  ],
+  "philosophy": "Own the outcome, not just the launch: great AI products balance quality, cost, and real business value."
+}

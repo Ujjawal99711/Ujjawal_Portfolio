@@ -1,0 +1,55 @@
+{
+  "personal": {
+    "name": "Ujjawal Darp",
+    "email": "ujjawaldarp34@gmail.com",
+    "github": "Ujjawal99711",
+    "linkedin": "ujjawal-darp",
+    "medium": ""
+  },
+  "bio": {
+    "headline": "AI Product Manager building AI-first consumer products",
+    "subtitle": "Product Manager specializing in AI-first consumer products and growth platforms, from 0-to-1 development through monetization and scale. Currently working on AI-driven career products at Outspark, serving 2 Lakh+ users."
+  },
+  "titles": ["Product Manager - AI Solutions"],
+  "sections": [
+    { "id": "about", "label": "01 - About", "navLabel": "About", "enabled": true },
+    { "id": "experience", "label": "02 - Experience", "navLabel": "Experience", "enabled": true },
+    { "id": "tech", "label": "03 - What I Work With", "navLabel": "Skills", "enabled": true },
+    { "id": "articles", "label": "04 - Thoughts & Ideas", "navLabel": "Thoughts", "enabled": false },
+    { "id": "projects", "label": "04 - Projects", "navLabel": "Projects", "enabled": true },
+    { "id": "awards", "label": "06 - Awards", "navLabel": "Awards", "enabled": false },
+    {
+      "id": "certifications",
+      "label": "07 - Certifications",
+      "navLabel": "Certs",
+      "enabled": false
+    },
+    { "id": "education", "label": "05 - Education", "navLabel": "Education", "enabled": true }
+  ],
+  "bentoGrid": {
+    "enabled": true
+  },
+  "theme": {
+    "primary": "slate",
+    "accent": "amber",
+    "mode": "light",
+    "visualStyle": "editorial",
+    "heroLayout": "center-profile",
+    "navStyle": "scroll",
+    "portfolioStructure": "scroll",
+    "presets": {
+      "slate-amber": { "primary": "slate", "accent": "amber" },
+      "indigo-violet": { "primary": "indigo", "accent": "violet" },
+      "emerald-teal": { "primary": "emerald", "accent": "teal" },
+      "rose-fuchsia": { "primary": "rose", "accent": "fuchsia" },
+      "blue-cyan": { "primary": "blue", "accent": "cyan" },
+      "slate-cyan": { "primary": "slate", "accent": "cyan" },
+      "indigo-amber": { "primary": "indigo", "accent": "amber" }
+    },
+    "customTheme": {
+      "primaryHex": "#5F6F3A",
+      "accentHex": "#A67C52",
+      "darkBg": "#23271C"
+    }
+  }
+}

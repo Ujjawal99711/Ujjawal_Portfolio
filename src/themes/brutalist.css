@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #000000;
+  --color-primary-rgb: 0, 0, 0;
+  --color-primary-light: #333333;
+  --color-primary-dark: #000000;
+
+  --color-accent: #ffe600;
+  --color-accent-rgb: 255, 230, 0;
+  --color-accent-light: #fff066;
+  --color-accent-dark: #ccb800;
+
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f0f0f0;
+  --color-bg-tertiary: #e0e0e0;
+
+  --color-text-primary: #000000;
+  --color-text-secondary: #1a1a1a;
+  --color-text-muted: #4d4d4d;
+
+  --color-border: #000000;
+  --color-border-strong: #000000;
+
+  --color-glass-bg: #ffffff;
+  --color-glass-border: #000000;
+  --color-glass-shadow: none;
+  --color-glass-hover-border: #000000;
+  --color-glass-hover-shadow: 6px 6px 0 #000000;
+
+  --color-nav-bg: #ffffff;
+  --color-nav-shadow: 0 2px 0 #000000;
+
+  --color-footer-border: #000000;
+  --color-scrollbar-track: #f0f0f0;
+  --color-scrollbar-thumb: #000000;
+  --color-scrollbar-thumb-hover: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.glass-card {
+  background: #ffffff !important;
+  backdrop-filter: none !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.glass-card:hover {
+  transform: translate(-4px, -4px) !important;
+  box-shadow: 6px 6px 0 #000000 !important;
+  border-color: #000000 !important;
+}
+
+nav {
+  border-bottom: 3px solid #000000 !important;
+  backdrop-filter: none !important;
+}
+
+footer {
+  border-top: 3px solid #000000 !important;
+}

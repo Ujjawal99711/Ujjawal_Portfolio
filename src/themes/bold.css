@@ -1,0 +1,58 @@
+:root {
+  --color-primary: #ef4444;
+  --color-primary-rgb: 239, 68, 68;
+  --color-primary-light: #f87171;
+  --color-primary-dark: #dc2626;
+
+  --color-accent: #fbbf24;
+  --color-accent-rgb: 251, 191, 36;
+  --color-accent-light: #fcd34d;
+  --color-accent-dark: #f59e0b;
+
+  --color-bg-primary: #0c0c0c;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-tertiary: #262626;
+
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #737373;
+
+  --color-border: #333333;
+  --color-border-strong: #525252;
+
+  --color-glass-bg: rgba(26, 26, 26, 0.9);
+  --color-glass-border: rgba(51, 51, 51, 0.6);
+  --color-glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --color-glass-hover-border: rgba(239, 68, 68, 0.4);
+  --color-glass-hover-shadow: 0 12px 40px rgba(239, 68, 68, 0.2);
+
+  --color-nav-bg: rgba(12, 12, 12, 0.9);
+  --color-nav-shadow: 0 1px 0 rgba(51, 51, 51, 0.6);
+
+  --color-footer-border: rgba(51, 51, 51, 0.6);
+  --color-scrollbar-track: #1a1a1a;
+  --color-scrollbar-thumb: #333333;
+  --color-scrollbar-thumb-hover: #525252;
+}
+
+.glass-card {
+  border-width: 2px !important;
+}
+
+.glass-card:hover {
+  transform: translateY(-6px) !important;
+}
+
+.hero-pulse {
+  animation: heroPulse 2s ease-in-out infinite;
+}
+
+@keyframes heroPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 60px rgba(239, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 100px rgba(239, 68, 68, 0.6);
+  }
+}
