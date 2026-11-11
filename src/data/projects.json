@@ -54,5 +54,19 @@
     ],
     "github": "https://github.com/Ujjawal99711/Virtual-Try-On",
     "featured": true
+  },
+  {
+    "title": "Free Alternative Finder",
+    "description": "A Claude skill that finds free, open-source alternatives to paid tools: describe the problem in plain English and it searches GitHub live, then returns a star-ranked table of repos with licenses, hardware needs, and red flags.",
+    "technologies": ["Claude Skills", "GitHub REST API", "Python", "Bash", "Prompt Engineering"],
+    "features": [
+      "Live GitHub search from 4-8 query angles, with no data from memory",
+      "Reads each README to confirm fit, install method, and CPU/GPU needs",
+      "Flags non-commercial licenses, stale repos, and inflated star counts",
+      "Personalised best-fit picks backed by real-user notes from the web",
+      "Daily mode that reports only new repos, star jumps, and license changes"
+    ],
+    "github": "https://github.com/Ujjawal99711/free-alternative-finder",
+    "featured": true
   }
 ]
