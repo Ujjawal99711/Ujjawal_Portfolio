@@ -68,5 +68,19 @@
     ],
     "github": "https://github.com/Ujjawal99711/free-alternative-finder",
     "featured": true
+  },
+  {
+    "title": "Gateway-Free UPI Checkout",
+    "description": "Accept UPI payments on any site with automatic confirmation, no payment gateway. Matches paisa-level amounts against bank credit alerts in Gmail, turning a personal UPI ID into a zero-fee checkout with no onboarding or merchant KYC.",
+    "technologies": ["Google Apps Script", "Gmail API", "Google Sheets", "JavaScript", "UPI"],
+    "features": [
+      "Assigns each buyer a unique decimal amount instead of a fixed price, turning the amount itself into the order ID",
+      "Watches Gmail for bank credit alerts and matches payments by exact paisa amount within about a minute",
+      "Automatic Paid status and confirmation email, no manual UTR entry or reconciliation",
+      "DKIM/DMARC sender verification before a payment is ever matched",
+      "Unmatched or suspicious payments logged to a Review tab instead of silently dropped"
+    ],
+    "github": "https://github.com/Ujjawal99711/gateway-free-upi-checkout",
+    "featured": true
   }
 ]
